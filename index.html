@@ -355,7 +355,12 @@
                         <textarea class="comment" name="comment" id="comment" rows="5" placeholder="Text input"></textarea>
                     </div>
                     <div class="modal-accept-box">
-                        <input type="checkbox" name="feedback-for-users" required>
+                        <input class="visually-hidden" type="checkbox" name="feedback-for-users" required>
+                        <div class="accept-box">
+                            <svg class="icon-checkbox" width="10" height="8">
+                                <use href="./images/icons.svg#icon-checkbox"></use>
+                            </svg>
+                        </div>
                         <label class="feedback-for-users" for="feedback-for-users" id="feedback-for-users">
                             I accept the terms and conditions of the 
                             <span>
