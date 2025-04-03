@@ -656,12 +656,6 @@ img {
     margin-bottom: 16px;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 24px;
-}
-
 .form-box {
     margin-bottom: 8px;
 }
