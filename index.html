@@ -44,7 +44,7 @@
             <section class="hero-section section">
                 <div class="container">
                     <h1 class="hero-section-title">Effective Solutions for Your Business</h1>
-                    <button type="button" class="hero-section-btn">Order Service</button>
+                    <button type="button" class="hero-section-btn" data-modal-open>Order Service</button>
                 </div>
             </section>
             <!-- FEATURE -->
@@ -374,9 +374,9 @@
             </div>
         </footer>
         <!-- Modal Window -->
-        <div class="modal-overlay is-open">
+        <div class="modal-overlay"data-modal>
             <div class="modal">
-                <button class="modal-close-btn" type="button">
+                <button class="modal-close-btn" type="button" data-modal-close>
                     <svg class="modal-icon-close" width="8" height="8">
                         <use href="./images/icons.svg#icon-close"></use>
                     </svg>
@@ -431,5 +431,6 @@
                 </form>
             </div>
         </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
